@@ -101,6 +101,7 @@
 	                                "title"          => $loc["DropDownFieldName_Title"],
 	                                "year"           => $loc["DropDownFieldName_Year"],
 	                                "publication"    => $loc["DropDownFieldName_Publication"],
+	                                "keywords"    	 => $loc["DropDownFieldName_Keywords"],
 	                                "volume_numeric" => $loc["DropDownFieldName_Volume"], // 'volume_numeric' is used instead of 'volume' in the sort dropdown menus
 	                                "pages"          => $loc["DropDownFieldName_Pages"]);
 
@@ -113,6 +114,7 @@
 		$titleSuggestElements = buildSuggestElements("titleName", "titleSuggestions", "titleSuggestProgress", "col-title-");
 		$yearSuggestElements = buildSuggestElements("yearNo", "yearSuggestions", "yearSuggestProgress", "col-year-");
 		$publicationSuggestElements = buildSuggestElements("publicationName2", "publicationSuggestions", "publicationSuggestProgress", "col-publication-");
+		$keywordsSuggestElements = buildSuggestElements("keywordsName", "keywordsSuggestions", "keywordsSuggestProgress", "col-keywords-");
 		$volumeSuggestElements = buildSuggestElements("volumeNo", "volumeSuggestions", "volumeSuggestProgress", "col-volume-");
 		$pagesSuggestElements = buildSuggestElements("pagesNo", "pagesSuggestions", "pagesSuggestProgress", "col-pages-");
 	}
@@ -122,6 +124,7 @@
 		$titleSuggestElements = "";
 		$yearSuggestElements = "";
 		$publicationSuggestElements = "";
+		$keywordsSuggestElements = "";
 		$volumeSuggestElements = "";
 		$pagesSuggestElements = "";
 	}
@@ -189,6 +192,19 @@
 	</td>
 	<td>
 		<input type="text" id="publicationName2" name="publicationName2" size="42"><?php echo $publicationSuggestElements; ?>
+
+	</td>
+</tr>
+<tr>
+	<td valign="middle"><input type="checkbox" id="showKeywords" name="showKeywords" value="1" checked></td>
+	<td><b><?php echo $loc["Keywords"]; ?>:</b></td>
+	<td>
+		<select id="keywordsSelector" name="keywordsSelector"><?php echo $dropDownItems1; ?>
+
+		</select>
+	</td>
+	<td>
+		<input type="text" id="keywordsName" name="keywordsName" size="42"><?php echo $keywordsSuggestElements; ?>
 
 	</td>
 </tr>

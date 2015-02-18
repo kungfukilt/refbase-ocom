@@ -2466,6 +2466,7 @@
 								  "showTitle"       => "title",
 								  "showYear"        => "year",
 								  "showPublication" => "publication",
+								  "showKeywords"    => "keywords",
 								  "showVolume"      => "volume",
 								  "showPages"       => "pages"
 								 );
@@ -2619,7 +2620,26 @@
 						$query .= " AND publication RLIKE " . quote_smart($publicationName2 . "$");
 				}
 		}
-
+		
+		// ... if the user has specified some keywords, add the value of '$keywordsName' as an AND clause:
+		$keywordsName = $_REQUEST['keywordsName'];
+		if ($keywordsName != "")
+			{
+				$keywordsSelector = $_REQUEST['keywordsSelector'];
+				if ($keywordsSelector == "contains")
+					$query .= " AND keywords RLIKE " . quote_smart($keywordsName);
+				elseif ($keywordsSelector == "does not contain")
+					$query .= " AND keywords NOT RLIKE " . quote_smart($keywordsName);
+				elseif ($keywordsSelector == "is equal to")
+					$query .= " AND keywords = " . quote_smart($keywordsName);
+				elseif ($keywordsSelector == "is not equal to")
+					$query .= " AND keywords != " . quote_smart($keywordsName);
+				elseif ($keywordsSelector == "starts with")
+					$query .= " AND keywords RLIKE " . quote_smart("^" . $keywordsName);
+				elseif ($keywordsSelector == "ends with")
+					$query .= " AND keywords RLIKE " . quote_smart($keywordsName . "$");
+			}
+			
 		// ... if the user has specified a volume, add the value of '$volumeNo' as an AND clause:
 		$volumeNo = $_REQUEST['volumeNo'];
 		if ($volumeNo != "")
