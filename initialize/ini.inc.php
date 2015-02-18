@@ -23,7 +23,7 @@
 	// --------------------------------------------------------------------
 
 	// The official name of this literature database:
-	$officialDatabaseName = "Your Literature Database"; // e.g. "IPÖ Literature Database"
+	$officialDatabaseName = "OCOM Literature Database"; // e.g. "IPÖ Literature Database"
 
 
 	// Specify who'll be allowed to add a new user to the users table:
@@ -48,11 +48,11 @@
 
 
 	// The full name of the institution hosting this literature database:
-	$hostInstitutionName = "Institute for ..."; // e.g. "Institute for Polar Ecology"
+	$hostInstitutionName = "Oregon College of Oriental Medicine"; // e.g. "Institute for Polar Ecology"
 
 
 	// The abbreviated name of the institution hosting this literature database:
-	$hostInstitutionAbbrevName = "..."; // e.g. "IPÖ"
+	$hostInstitutionAbbrevName = "OCOM"; // e.g. "IPÖ"
 
 
 	// The URL of the institution hosting this literature database:
