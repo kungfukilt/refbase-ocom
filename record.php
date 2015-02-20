@@ -1188,7 +1188,7 @@
 			. "\n<tr>"
 			. "\n\t<td width=\"74\" class=\"mainfieldsbg\"><b>". $loc["Title"]."</b></td>"
 			. "\n\t<td colspan=\"3\" class=\"mainfieldsbg\">"
-			. "\n\t\t" . fieldError("titleName", $errors) . "<input type=\"text\" id=\"titleName\" name=\"titleName\" value=\"$titleName\" size=\"47\" title=\"". $loc["DescriptionTitle"]."\">" . $titleSuggestElements
+			. "\n\t\t" . fieldError("titleName", $errors) . "<textarea id=\"titleName\" name=\"titleName\" rows=\"3\" cols=\"50\" title=\"". $loc["DescriptionTitle"]."\">$titleName</textarea></td>"
 			. "\n\t</td>"
 			. "\n\t<td width=\"74\" class=\"mainfieldsbg\"><b>". $loc["Type"]."</b></td>";
 
