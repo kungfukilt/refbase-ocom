@@ -20,6 +20,8 @@
 	// functions that are shared
 	// between all scripts.
 
+	// Google Analytics:
+	include_once 'includes/analyticstracking.php'; // include tracking code
 
 	// Incorporate some include files:
 	include 'initialize/db.inc.php'; // 'db.inc.php' is included to hide username and password
