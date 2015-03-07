@@ -1290,7 +1290,7 @@
 			. "\n</tr>"
 			. "\n<tr>"
 			. "\n\t<td width=\"74\" class=\"otherfieldsbg\"><b>". $loc["Keywords"]."</b></td>"
-			. "\n\t<td colspan=\"5\" class=\"otherfieldsbg\"><textarea id=\"keywordsName\" name=\"keywordsName\" rows=\"3\" cols=\"83\" title=\"". $loc["DescriptionKeywords"]."\">$keywordsName</textarea></td>"
+			. "\n\t<td colspan=\"5\" class=\"otherfieldsbg\"><textarea id=\"keywordsName\" name=\"keywordsName\" rows=\"5\" cols=\"83\" title=\"". $loc["DescriptionKeywords"]."\">$keywordsName</textarea></td>"
 			. "\n</tr>"
 			. "\n<tr>"
 			. "\n\t<td width=\"74\" class=\"otherfieldsbg\"><b>". $loc["Abstract"]."</b></td>"
