@@ -61,7 +61,7 @@
 
 	// The URL to any (custom) help resources for this literature database:
 	// (specify an empty string if you don't want a help link: '$helpResourcesURL = "";')
-	$helpResourcesURL = "http://www.refbase.net/"; // e.g. "http://www.refbase.net/"
+	$helpResourcesURL = "https://docs.google.com/a/ocom.edu/document/d/1hTQxhuNljH8aVaoeygnFAJSXWLtmqtoEwCijcX7UKt0/edit?usp=sharing"; // e.g. "http://www.refbase.net/"
 
 
 	// Specify whether announcements should be sent to the email address given in '$mailingListEmail':
