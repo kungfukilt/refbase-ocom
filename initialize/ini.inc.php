@@ -173,21 +173,21 @@
 	// Defines the default user permissions when adding new users:
 	// Possible values for each of the permission settings: "yes", "no"
 	// Allow a newly created user to:
-	$defaultUserPermissions = array("yes", // add records to the database ('allow_add')
-	                                "yes", // edit records in the database ('allow_edit')
-	                                "yes", // delete records from the database ('allow_delete')
+	$defaultUserPermissions = array("no", // add records to the database ('allow_add')
+	                                "no", // edit records in the database ('allow_edit')
+	                                "no", // delete records from the database ('allow_delete')
 	                                "yes", // download files which are associated with particular records ('allow_download')
-	                                "yes", // upload files to the database ('allow_upload')
+	                                "no", // upload files to the database ('allow_upload')
 	                                "yes", // view records in list view ('allow_list_view')
 	                                "yes", // view any record details ('allow_details_view')
 	                                "yes", // view records in print view ('allow_print_view')
 	                                "no", // view records in browse view ('allow_browse_view')
 	                                "yes", // build a reference list from selected records ('allow_cite')
-	                                "yes", // import records into the database ('allow_import')
-	                                "yes", // batch import records into the database ('allow_batch_import')
-	                                "yes", // export records from the database ('allow_export')
-	                                "yes", // batch export records from the database ('allow_batch_export')
-	                                "yes", // use the 'user groups' feature ('allow_user_groups')
+	                                "no", // import records into the database ('allow_import')
+	                                "no", // batch import records into the database ('allow_batch_import')
+	                                "no", // export records from the database ('allow_export')
+	                                "no", // batch export records from the database ('allow_batch_export')
+	                                "no", // use the 'user groups' feature ('allow_user_groups')
 	                                "yes", // use the 'user queries' feature ('allow_user_queries')
 	                                "yes", // generate dynamic RSS feeds from any query ('allow_rss_feeds')
 	                                "yes", // execute custom SQL queries via 'sql_search.php' ('allow_sql_search')
@@ -371,7 +371,7 @@
 
 
 	// The size of the PDF page (used when outputting citations as PDF):
-	$pdfPageSize = "a4"; // possible values: "a4", "letter"
+	$pdfPageSize = "letter"; // possible values: "a4", "letter"
 
 
 	// The default text citation format:
