@@ -34,7 +34,7 @@
 	// admin as the very first user (don't forget to specify his email address below!). Then, change the
 	// value of $addNewUsers to "admin". By that you prevent other users from messing with your users
 	// table. (If the value is set to "everyone", any user will be able to add users to the users table!)
-	$addNewUsers = "admin"; // possible values: "everyone", "admin"
+	$addNewUsers = "everyone"; // possible values: "everyone", "admin"
 
 
 	// The admin email address (by which a user is granted admin status after successful login!):
