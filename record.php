@@ -1294,7 +1294,7 @@
 			. "\n</tr>"
 			. "\n<tr>"
 			. "\n\t<td width=\"74\" class=\"otherfieldsbg\"><b>". $loc["Abstract"]."</b></td>"
-			. "\n\t<td colspan=\"5\" class=\"otherfieldsbg\"><textarea id=\"abstractName\" name=\"abstractName\" rows=\"6\" cols=\"83\" title=\"". $loc["DescriptionAbstract"]."\">$abstractName</textarea></td>"
+			. "\n\t<td colspan=\"5\" class=\"otherfieldsbg\"><textarea id=\"abstractName\" name=\"abstractName\" rows=\"20\" cols=\"83\" title=\"". $loc["DescriptionAbstract"]."\">$abstractName</textarea></td>"
 			. "\n</tr>"
 			. "\n<tr>"
 			. "\n\t<td width=\"74\" class=\"otherfieldsbg\"><b>". $loc["Address"]."</b></td>"
