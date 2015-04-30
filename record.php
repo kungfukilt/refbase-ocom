@@ -1262,7 +1262,7 @@
 			. "\n</tr>"
 			. "\n<tr>"
 			. "\n\t<td width=\"74\" class=\"mainfieldsbg\"><b>". $loc["Year"]."</b></td>"
-			. "\n\t<td class=\"mainfieldsbg\">"
+			. "\n\t<td colspan=\"6\" class=\"mainfieldsbg\">"
 			. "\n\t\t" . fieldError("yearNo", $errors) . "<input type=\"text\" id=\"yearNo\" name=\"yearNo\" value=\"$yearNo\" size=\"14\" title=\"". $loc["DescriptionYear"]."\">" . $yearSuggestElements
 			. "\n\t</td>"
 			. "\n</tr>"
