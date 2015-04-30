@@ -124,7 +124,7 @@
 
 		if (!empty($helpResourcesURL))
 		{
-?><a href="<?php echo $helpResourcesURL; ?>" title="<?php echo $loc["LinkTitle_Help"]; ?>"><?php echo $loc["Help"]; ?></a><?php
+?><a href="<?php echo $helpResourcesURL; ?>" title="<?php echo $loc["LinkTitle_Help"]; ?>" target="_blank"><?php echo $loc["Help"]; ?></a><?php
 		}
 ?></td>
 </tr>

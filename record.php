@@ -1265,13 +1265,17 @@
 			. "\n\t<td class=\"mainfieldsbg\">"
 			. "\n\t\t" . fieldError("yearNo", $errors) . "<input type=\"text\" id=\"yearNo\" name=\"yearNo\" value=\"$yearNo\" size=\"14\" title=\"". $loc["DescriptionYear"]."\">" . $yearSuggestElements
 			. "\n\t</td>"
+			. "\n</tr>"
+			. "\n<tr>"
 			. "\n\t<td width=\"74\" class=\"mainfieldsbg\"><b>". $loc["Publication"]."</b></td>"
-			. "\n\t<td class=\"mainfieldsbg\">"
-			. "\n\t\t" . fieldError("publicationName", $errors) . "<input type=\"text\" id=\"publicationName\" name=\"publicationName\" value=\"$publicationName\" size=\"14\" title=\"". $loc["DescriptionPublicationName"]."\">" . $publicationSuggestElements
+			. "\n\t<td colspan=\"6\" class=\"mainfieldsbg\">"
+			. "\n\t\t" . fieldError("publicationName", $errors) . "<input type=\"text\" id=\"publicationName\" name=\"publicationName\" value=\"$publicationName\" size=\"84\" title=\"". $loc["DescriptionPublicationName"]."\">" . $publicationSuggestElements
 			. "\n\t</td>"
+			. "\n</tr>"
+			. "\n<tr>"
 			. "\n\t<td width=\"74\" class=\"mainfieldsbg\"><b>". $loc["JournalAbbr"]."</b></td>"
-			. "\n\t<td align=\"right\" class=\"mainfieldsbg\">"
-			. "\n\t\t" . fieldError("abbrevJournalName", $errors) . "<input type=\"text\" id=\"abbrevJournalName\" name=\"abbrevJournalName\" value=\"$abbrevJournalName\" size=\"14\" title=\"". $loc["DescriptionJournalAbbr"]."\">" . $abbrevJournalSuggestElements
+			. "\n\t<td colspan=\"6\"  align=\"right\" class=\"mainfieldsbg\">"
+			. "\n\t\t" . fieldError("abbrevJournalName", $errors) . "<input type=\"text\" id=\"abbrevJournalName\" name=\"abbrevJournalName\" value=\"$abbrevJournalName\" size=\"84\" title=\"". $loc["DescriptionJournalAbbr"]."\">" . $abbrevJournalSuggestElements
 			. "\n\t</td>"
 			. "\n</tr>"
 			. "\n<tr>"
