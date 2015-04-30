@@ -99,9 +99,9 @@
 
 
 	// Validate the Institutional Abbreviation
-	if (empty($formVars["abbrevInstitution"]))
-		// the institutional abbreviation cannot be a null string
-		$errors["abbrevInstitution"] = "The institutional abbreviation field cannot be blank:";
+	//if (empty($formVars["abbrevInstitution"]))
+		//// the institutional abbreviation cannot be a null string
+		//$errors["abbrevInstitution"] = "The institutional abbreviation field cannot be blank:";
 
 	elseif (strlen($formVars["abbrevInstitution"]) > 25)
 		$errors["abbrevInstitution"] = "The institutional abbreviation can be no longer than 25 characters:";
