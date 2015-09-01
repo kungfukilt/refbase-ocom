@@ -52,7 +52,7 @@
 "Citations"=>"Citations",
 "CiteKey"=>"Cite Key",
 "City"=>"City",
-"Conference"=>"Conference",
+"Conference"=>"OCSI Score",
 "ConferenceArticles"=>"Conference Proceedings",
 "ConferenceVolumes"=>"Conference Proceedings",
 "contains"=>"contains",
