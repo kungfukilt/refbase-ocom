@@ -23,7 +23,7 @@
 	// --------------------------------------------------------------------
 
 	// The official name of this literature database:
-	$officialDatabaseName = "OCOM Literature Database"; // e.g. "IPÖ Literature Database"
+	$officialDatabaseName = "AcuTrials"; // e.g. "IPÖ Literature Database"
 
 
 	// Specify who'll be allowed to add a new user to the users table:
@@ -131,7 +131,7 @@
 
 	// The URL path to the main logo image that's displayed in the refbase header:
 	// (note that all URL paths must be given relative to the root level of your refbase script directory)
-	$logoImageURL = "img/logo.png"; // e.g. "img/logo.png"
+	$logoImageURL = "img/ocom_logo.png"; // e.g. "img/logo.png"
 
 	// The width of the main logo image (in pixels):
 	$logoImageWidth = "94"; // e.g. "94"
